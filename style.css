@@ -30,7 +30,7 @@
 }
 
 #nav a:hover{
-    font-size: 30px;
+    font-size: 25px;
     background-color: rgba(50, 55, 65, 0.87);
 }
 
@@ -42,10 +42,33 @@
     flex:1;
     margin: 10px;
     padding: 10px;
+    
 }
 
 #photomain{
     flex:2;
     justify-content: center;
     background-image: url();
+    text-align: center;
+}
+
+*{
+    background-color: rgba(33, 46, 70, 0.74);
+    color: white;
+}
+
+div p{
+    max-width: 750px;
+}
+
+#histimg1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 480px;
+    height: 400px;
+}
+
+#histimg2{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
