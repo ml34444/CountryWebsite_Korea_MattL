@@ -46,10 +46,18 @@
 }
 
 #photomain{
+    padding: 10px;
     flex:2;
     justify-content: center;
-    background-image: url();
+    background-image: url(pmain.jpeg);
+    width: 200%;
+    height: 400px;
     text-align: center;
+    background-size: 1500px 800px;
+}
+
+#photomain h1{
+    background-color: transparent;
 }
 
 *{
@@ -71,4 +79,14 @@ div p{
 #histimg2{
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+#head{
+    flex:3
+}
+
+#footer{
+    background-color: black;
+    color: white;
+
 }
