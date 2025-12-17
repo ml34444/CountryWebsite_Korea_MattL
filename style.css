@@ -57,6 +57,7 @@
 
 #photomain h1{
     background-color: transparent;
+    padding-top: 40px;
 }
 
 *{
@@ -92,7 +93,10 @@ div p{
 #footer{
     background-color: black;
     color: white;
-
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+    text-align: center;
 }
 
 #flaghome{
@@ -118,5 +122,29 @@ p:hover{
 #attractimg{
     width: 640px;
     height:auto;
-    padding-right: 350px;
+    padding-top: 20px;
+    padding-right: 120px;
+}
+
+#attractdmz{
+    width: 600px;
+    height: auto;
+}
+
+h3{
+    background-color: black;
+    font-size: 30px;
+}
+
+#honorific{
+    width: 338px;
+    height: auto;
+    padding-left: 150px;
+    padding-bottom: 10px;
+}
+
+#bow{
+    width: 622px;
+    height:auto;
+    padding-top: 40px;
 }
